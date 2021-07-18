@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         test: /\.html$/,
-        use: 'raw-loader',
+        use: 'html-loader',
         exclude: [helpers.root('src/test/mocha-index.html')]
       },
       {

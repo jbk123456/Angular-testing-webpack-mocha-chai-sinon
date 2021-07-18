@@ -1,5 +1,7 @@
 import {Component} from '@angular/core';
 import {Book} from './book.model';
+import * as teststrings from './teststrings.json';
+
 
 @Component({
   selector: 'book-form',
