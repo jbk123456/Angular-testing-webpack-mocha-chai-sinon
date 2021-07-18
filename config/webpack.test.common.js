@@ -6,7 +6,7 @@ process.traceDeprecation = true;
 module.exports = {
 
   resolve: {
-    extensions: ['.ts', '.js', 'json']
+    extensions: ['.ts', '.js']
   },
 
   module: {
@@ -35,11 +35,6 @@ module.exports = {
         test: /\.css$/,
         include: helpers.root('src', 'app'),
         use: 'raw-loader'
-      },
-      {
-        test: /\.json$/,
-        use: 'json-loader',
-        exclude: [helpers.root('src/index.html')]
       }
     ]
   },

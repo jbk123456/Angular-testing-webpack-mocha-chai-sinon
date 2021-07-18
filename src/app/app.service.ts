@@ -2,6 +2,7 @@ import {Injectable} from '@angular/core';
 import {Book} from './book.model';
 import {HttpClient} from '@angular/common/http';
 import {Observable} from 'rxjs/index';
+import * as teststrings from './teststrings.json';
 
 @Injectable()
 export class AppService {
